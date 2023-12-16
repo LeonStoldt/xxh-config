@@ -10,3 +10,9 @@
 
 ## Config
 Replace example config with custom [config](./config.xxhc). Explained here: [Config file](https://github.com/xxh/xxh/wiki#config-file)
+
+## Usage
+Using [seamless](https://github.com/xxh/xxh?tab=readme-ov-file#seamless-oh-my-zsh-demo) mode:
+``` shell
+source xxh.zsh <HOST>
+```
