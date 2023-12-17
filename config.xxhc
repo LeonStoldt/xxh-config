@@ -2,8 +2,9 @@ hosts:
   ".*":                         # apply to all hosts
     +s: zsh                     # shell: ZSH
     +I:                         # install xxh packages (if not installed)
-      - xxh-shell-zsh             # install portable Zsh
-      - xxh-plugin-zsh-ohmyzsh    # install Oh My Zsh plugin for xxh
+      - xxh-shell-zsh                                         # install portable Zsh
+      - xxh-plugin-zsh-ohmyzsh                                # install Oh My Zsh plugin
+      - https://github.com/LeonStoldt/xxh-plugin-prerun-bat   # install bat plugin
     +if:                        # install-force
     +q:                         # quiet
     +hhr:                       # remove host xxh home after disconnect
